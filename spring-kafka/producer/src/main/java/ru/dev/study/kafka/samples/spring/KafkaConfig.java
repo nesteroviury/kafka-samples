@@ -1,4 +1,4 @@
-package ru.dev.study.kafka.samples.spring.config;
+package ru.dev.study.kafka.samples.spring;
 
 import org.apache.kafka.clients.admin.AdminClientConfig;
 import org.apache.kafka.clients.admin.NewTopic;
@@ -15,7 +15,7 @@ import java.util.Map;
  */
 @Configuration
 public class KafkaConfig {
-    private static final String AUTO_CREATED_TOPIC = "auto-created";
+    public static final String AUTO_CREATED_TOPIC = "auto-created";
 
     @Value("${kafka.bootstrap.address}")
     private String bootstrapAddress;

@@ -3,3 +3,4 @@
 # target directories
 spring-kafka/target
 kafka-dto/target
+spring-kafka/producer/target
